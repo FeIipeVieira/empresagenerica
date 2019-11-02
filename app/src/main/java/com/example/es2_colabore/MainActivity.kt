@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+       // btnAjuda.stateListAnimator = null
         btnAcessar.setOnClickListener {
 
         }
@@ -25,7 +25,24 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
 
         }
+        btnAjuda.setOnClickListener{
 
+
+
+            Toast.makeText(this,"Rosas são vermelhas violetas são azuis, ainda não funciona!", Toast.LENGTH_SHORT).show()
+
+
+
+        }
+        acessarCadastro.setOnClickListener{
+
+
+
+            Toast.makeText(this,"O importante é os amigos feitos no percorrer do percurso!", Toast.LENGTH_SHORT).show()
+
+
+
+        }
 
     }
 }
