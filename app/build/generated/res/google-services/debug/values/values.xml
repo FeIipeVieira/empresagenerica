@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">885890747099-8n13bfiv7l1u5gkofpqb2k5lb310rf5r.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://es2-colabore.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">885890747099</string>
+    <string name="google_api_key" translatable="false">AIzaSyC978k7p7bWva2Z2vh63fyD-bQNK8goECU</string>
+    <string name="google_app_id" translatable="false">1:885890747099:android:c71babbe9bfa7f8be95afe</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC978k7p7bWva2Z2vh63fyD-bQNK8goECU</string>
+    <string name="google_storage_bucket" translatable="false">es2-colabore.appspot.com</string>
+    <string name="project_id" translatable="false">es2-colabore</string>
+</resources>

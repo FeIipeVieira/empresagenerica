@@ -10,14 +10,14 @@
 
 
     <EditText
-        android:id="@+id/etUsuário"
+        android:id="@+id/etE-mail_login"
         android:layout_width="282dp"
         android:layout_height="48dp"
         android:background="@drawable/usuario"
         android:ems="10"
-        android:hint="Usuário"
-        android:inputType="textPersonName"
+        android:hint="E-mail"
         android:paddingLeft="30dp"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -26,7 +26,7 @@
         app:layout_constraintVertical_bias="0.499" />
 
     <EditText
-        android:id="@+id/etSenha"
+        android:id="@+id/etSenha_login"
         android:layout_width="282dp"
         android:layout_height="48dp"
         android:background="@drawable/senha"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.6" />
 
     <Button
-        android:id="@+id/btnAcessar"
+        android:id="@+id/btnFazer_login"
         android:layout_width="282dp"
         android:layout_height="42dp"
         android:background="@drawable/loginbutao"
@@ -67,7 +67,7 @@
 
     <Button
 
-        android:id="@+id/btnAjuda"
+        android:id="@+id/btnAjuda_login"
 
         android:layout_width="56dp"
         android:layout_height="52dp"
@@ -109,5 +109,7 @@
         app:layout_constraintStart_toEndOf="@+id/textoAjuda"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.796" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

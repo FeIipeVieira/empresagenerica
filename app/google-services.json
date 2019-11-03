@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "885890747099",
+    "firebase_url": "https://es2-colabore.firebaseio.com",
+    "project_id": "es2-colabore",
+    "storage_bucket": "es2-colabore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:885890747099:android:c71babbe9bfa7f8be95afe",
+        "android_client_info": {
+          "package_name": "com.example.es2_colabore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "885890747099-8n13bfiv7l1u5gkofpqb2k5lb310rf5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC978k7p7bWva2Z2vh63fyD-bQNK8goECU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "885890747099-8n13bfiv7l1u5gkofpqb2k5lb310rf5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

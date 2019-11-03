@@ -25,6 +25,10 @@
 
         <activity android:name=".Perfil_Projeto" />
 
+        <activity android:name=".RegisterActivity" />
+
+
+
 
     </application>
 
