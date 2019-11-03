@@ -13,15 +13,13 @@ class RegisterActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registro)
 
-        btn_register_register.setOnClickListener {
+       /* btn_register_register.setOnClickListener {
             fazerCadastro()
         }
 
-        tv_already_register.setOnClickListener {
-            finish()
-        }
+*/
     }
-
+/*
     private fun fazerCadastro(){
         val email = et_email_register.text.toString()
         val senha = et_password_register.text.toString()
@@ -46,5 +44,5 @@ class RegisterActivity : AppCompatActivity(){
                 Log.d("Registro","Falha ao criar usuário: ${it.message}")
             }
     }
-
+*/
 }

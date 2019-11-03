@@ -5,76 +5,260 @@
     android:id="@+id/register_screen"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8BC34A"
+
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/et_username_register"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginLeft="32dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:hint="Username"
-        android:inputType="textPersonName"
-        android:paddingLeft="16dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/et_email_register"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:paddingLeft="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/et_username_register"
-        app:layout_constraintStart_toStartOf="@+id/et_username_register"
-        app:layout_constraintTop_toBottomOf="@+id/et_username_register" />
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
 
-    <EditText
-        android:id="@+id/et_password_register"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="8dp"
-        android:background="@android:color/white"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:paddingLeft="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/et_email_register"
-        app:layout_constraintStart_toStartOf="@+id/et_email_register"
-        app:layout_constraintTop_toBottomOf="@+id/et_email_register" />
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_register_register"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Register"
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="200dp"
+                android:paddingRight="200dp"
+                android:paddingTop="60dp"
+                android:paddingBottom="60dp"
+                app:srcCompat="@drawable/statuscadastro01"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
 
-        app:layout_constraintEnd_toEndOf="@+id/et_password_register"
-        app:layout_constraintStart_toStartOf="@+id/et_password_register"
-        app:layout_constraintTop_toBottomOf="@+id/et_password_register" />
+                android:layout_alignParentRight="true"/>
 
-    <TextView
-        android:id="@+id/tv_already_register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"
-        android:textSize="16sp"
-        android:text="Already have an account?"
-        app:layout_constraintEnd_toEndOf="@+id/btn_register_register"
-        app:layout_constraintStart_toStartOf="@+id/btn_register_register"
-        app:layout_constraintTop_toBottomOf="@+id/btn_register_register" />
+
+            <Button
+                android:id="@+id/btn_register_register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="630dp"
+                android:layout_marginBottom="630dp"
+                android:background="@drawable/botaonext"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+
+            <Button
+                android:id="@+id/et_entrarlinkdin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="540dp"
+                android:background="@drawable/et1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="415dp"
+                android:layout_marginBottom="415dp"
+                app:srcCompat="@drawable/textocadastro1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentRight="true"/>
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="54dp"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="385dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="65dp"
+                android:layout_marginBottom="385dp"
+                app:srcCompat="@drawable/separadorlinkdin" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:paddingLeft="90dp"
+                android:paddingRight="90dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                app:srcCompat="@drawable/tt1"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+
+            <EditText
+                android:id="@+id/et_username_register"
+                android:layout_width="301dp"
+                android:layout_height="36dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_marginStart="56dp"
+                android:layout_marginLeft="56dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/caixacadastro"
+                android:ems="10"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+
+            <EditText
+                android:id="@+id/et_email_register"
+                android:layout_width="301dp"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"
+
+                android:layout_marginStart="55dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="170dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginBottom="170dp"
+                android:background="@drawable/caixacadastro"
+                android:ems="10"
+                android:hint="Endereço de email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="145dp"
+                android:layout_marginBottom="145dp"
+                android:text="Nome de usuário já utilizado"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="210dp"
+                android:layout_marginBottom="210dp"
+                android:text="Formato do email incorreto"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+
+            <EditText
+                android:id="@+id/et_password_register"
+                android:layout_width="301dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="240dp"
+                android:layout_marginBottom="240dp"
+                android:background="@drawable/caixacadastro"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentRight="true"/>
+
+            <EditText
+                android:id="@+id/etvaldo"
+                android:layout_width="301dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="285dp"
+                android:layout_marginBottom="285dp"
+                android:background="@drawable/caixacadastro"
+                android:ems="10"
+                android:hint="Confirme sua senha"
+                android:inputType="textPassword"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginRight="55dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginBottom="330dp"
+                android:text="Os dois campos não batem"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="65dp"
+                android:layout_marginRight="65dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="595dp"
+                android:layout_marginBottom="595dp"
+                app:srcCompat="@drawable/separadorcontinuar"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginEnd="55dp"
+                android:layout_alignParentRight="true"/>
+
+            <TextView
+                android:id="@+id/tv_already_regisjijhjhter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Voltar"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+
+                android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

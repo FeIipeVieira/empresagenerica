@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         }
         //Ajuda
         btnAjuda_login.setOnClickListener{
-            Toast.makeText(this,"O importante é os amigos feitos no percorrer do percurso!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this,"O importante são os amigos feitos no percorrer do percurso!", Toast.LENGTH_SHORT).show()
         }
         //Fazer cadastro
         acessarCadastro.setOnClickListener{
