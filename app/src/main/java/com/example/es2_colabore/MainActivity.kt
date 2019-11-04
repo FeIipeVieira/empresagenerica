@@ -33,6 +33,11 @@ class MainActivity : AppCompatActivity() {
         val email = etE_mail_login.text.toString()
         val senha = etSenha_login.text.toString()
 
+        if (email.isEmpty() || senha.isEmpty()){
+            Toast.makeText(this,"Por favor digite email e/ou senha corretamente.", Toast.LENGTH_LONG).show()
+            return
+        }
+
         FirebaseAuth.getInstance().signInWithEmailAndPassword(email,senha)
             .addOnCompleteListener {
                 //Se funcionar

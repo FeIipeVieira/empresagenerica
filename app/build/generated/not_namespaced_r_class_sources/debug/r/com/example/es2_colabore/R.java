@@ -3700,13 +3700,14 @@ public final class R {
     public static final int tvNome=0x7f0700b4;
     public static final int tvNomeProjeto=0x7f0700b5;
     public static final int tv_already_regisjijhjhter=0x7f0700b6;
-    public static final int uniform=0x7f0700b7;
-    public static final int up=0x7f0700b8;
-    public static final int useLogo=0x7f0700b9;
-    public static final int wide=0x7f0700ba;
-    public static final int withText=0x7f0700bb;
-    public static final int wrap=0x7f0700bc;
-    public static final int wrap_content=0x7f0700bd;
+    public static final int tv_already_register=0x7f0700b7;
+    public static final int uniform=0x7f0700b8;
+    public static final int up=0x7f0700b9;
+    public static final int useLogo=0x7f0700ba;
+    public static final int wide=0x7f0700bb;
+    public static final int withText=0x7f0700bc;
+    public static final int wrap=0x7f0700bd;
+    public static final int wrap_content=0x7f0700be;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -3761,6 +3762,7 @@ public final class R {
     public static final int select_dialog_multichoice_material=0x7f090029;
     public static final int select_dialog_singlechoice_material=0x7f09002a;
     public static final int support_simple_spinner_dropdown_item=0x7f09002b;
+    public static final int tela_registro_naotocagabriel=0x7f09002c;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0a0000;

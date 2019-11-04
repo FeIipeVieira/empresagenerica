@@ -887,6 +887,7 @@ id tvE_mail
 id tvNome
 id tvNomeProjeto
 id tv_already_regisjijhjhter
+id tv_already_register
 id uniform
 id up
 id useLogo
@@ -944,6 +945,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout tela_registro_naotocagabriel
 mipmap ic_launcher
 mipmap ic_launcher_round
 string abc_action_bar_home_description

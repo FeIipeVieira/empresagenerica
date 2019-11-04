@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\ts_th\\empresagenerica\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+            "outputFile": "C:\\Users\\Pichau\\Documents\\GitHub\\empresagenerica\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ts_th\\.gradle\\caches\\transforms-2\\files-2.1\\913b3518a1cb9e8986274edfbc0f5fa1\\appcompat-1.0.2\\res\\values-v25\\values-v25.xml",
+                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\transforms-2\\files-2.1\\d6b05e371b2ef531b1e8c2e1762de3d3\\appcompat-1.0.2\\res\\values-v25\\values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",
