@@ -143,7 +143,7 @@ class RegisterActivity : AppCompatActivity(){
             return
         }*/
         if(!((textView.text.equals("OK")) and (textView2.text.equals("OK") and (textView3.text.equals("OK"))))){
-            Toast.makeText(this,"Por favor digite conserte os campos com erro", Toast.LENGTH_LONG).show()
+            Toast.makeText(this,"Por favor conserte os campos com erro", Toast.LENGTH_LONG).show()
             return
         }
         FirebaseAuth.getInstance().createUserWithEmailAndPassword(email,senha)
