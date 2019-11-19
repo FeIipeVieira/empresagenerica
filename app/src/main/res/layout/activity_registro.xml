@@ -160,7 +160,7 @@
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="145dp"
 
-                android:text="Nome de usuário já utilizado"
+                android:text=""
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
 
@@ -175,7 +175,7 @@
                 android:layout_marginStart="55dp"
                 android:layout_marginTop="210dp"
 
-                android:text="Formato do email incorreto"
+                android:text=""
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
 
@@ -229,7 +229,7 @@
                 android:layout_marginRight="55dp"
                 android:layout_marginTop="330dp"
 
-                android:text="Os dois campos não batem"
+                android:text=""
                 android:layout_alignParentStart="true"
                 android:layout_alignParentLeft="true"
 
