@@ -16,7 +16,22 @@ class MainActivity : AppCompatActivity() {
 
         //Login
         btnFazer_login.setOnClickListener {
-            fazerLogin()
+            val email = etE_mail_login.text.toString()
+            val senha = etSenha_login.text.toString()
+            if (checa_email(email) and (checa_senha(senha))){
+                fazerLogin(email,senha)
+                /*val resp = fazerLogin(email,senha)
+                if (resp.equals("sucesso") ){
+                    Toast.makeText(this,"Login feito com sucesso!",Toast.LENGTH_SHORT).show()
+                    val intent = Intent(this, MainMenu::class.java)
+                    startActivity(intent)
+                }else{
+                    Toast.makeText(this, "Falha ao fazer login: $resp",Toast.LENGTH_SHORT).show()
+                }*/
+            }else {
+                Toast.makeText(this, "Por favor digite email e/ou senha corretamente.", Toast.LENGTH_SHORT).show()
+            }
+
         }
         //Ajuda
         btnAjuda_login.setOnClickListener{
@@ -28,16 +43,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
     // Tenta fazer login ao Firebase
-    private fun fazerLogin(){
-        val email = etE_mail_login.text.toString()
-        val senha = etSenha_login.text.toString()
-
-        if (email.isEmpty() || senha.isEmpty()){
-            Toast.makeText(this,"Por favor digite email e/ou senha corretamente.", Toast.LENGTH_LONG).show()
-            return
-        }
-
+    fun fazerLogin(email:String, senha:String ){
         FirebaseAuth.getInstance().signInWithEmailAndPassword(email,senha)
             .addOnCompleteListener {
                 //Se funcionar
@@ -54,8 +62,5 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this,"Falha ao fazer login: ${it.message}",Toast.LENGTH_SHORT).show()
             }
     }
-
-
-
 
 }
