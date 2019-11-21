@@ -18,7 +18,7 @@ fun checa_email(email: String):Boolean{
 fun checa_senha(senha:String):Boolean{
     return senha.length>=6
 }
-
+/* Ainda não consegui fazer essa função funcionar a partir daqui, a versão funcional se encontra em MainActivity
 fun fazerLogin2(email:String, senha:String ):Boolean{
     var ok = false
     FirebaseAuth.getInstance().signInWithEmailAndPassword(email,senha)
@@ -38,4 +38,4 @@ fun fazerLogin2(email:String, senha:String ):Boolean{
         }
     return ok
 
-}
+}*/
