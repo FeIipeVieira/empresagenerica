@@ -1,10 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Pichau\\Documents\\GitHub\\empresagenerica\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+            "outputFile": "C:\\Users\\Felip\\OneDrive\\Documents\\GitHub\\empresagenerica\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Pichau\\.gradle\\caches\\transforms-2\\files-2.1\\d6b05e371b2ef531b1e8c2e1762de3d3\\appcompat-1.0.2\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "C:\\Users\\Felip\\.gradle\\caches\\transforms-2\\files-2.1\\78592f6eca79326e294d33e6be2fe5ed\\material-1.1.0-alpha05\\res\\values-large-v4\\values-large-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,177",
+                        "endColumns": "121,133",
+                        "endOffsets": "172,306"
+                    },
+                    "to": {
+                        "startLines": "11,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "752,874",
+                        "endColumns": "121,133",
+                        "endOffsets": "869,1003"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Felip\\.gradle\\caches\\transforms-2\\files-2.1\\910a9d1a63f659acc110711d312d66ae\\appcompat-1.1.0-alpha01\\res\\values-large-v4\\values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
