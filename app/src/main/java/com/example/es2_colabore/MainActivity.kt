@@ -20,8 +20,9 @@ class MainActivity : AppCompatActivity() {
             val senha = etSenha_login.text.toString()
             if (checa_email(email) and (checa_senha(senha))){
                 fazerLogin(email,senha)
-                /*val resp = fazerLogin(email,senha)
-                if (resp.equals("sucesso") ){
+                //Essa parte comentada se refere as tentativas de testar o acesso ao banco de dados como função
+                /*val resp = fazerLogin2(email,senha)
+                if (resp ){
                     Toast.makeText(this,"Login feito com sucesso!",Toast.LENGTH_SHORT).show()
                     val intent = Intent(this, MainMenu::class.java)
                     startActivity(intent)
